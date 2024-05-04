@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #8EE53F;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+header h1 {
+    color: black;
+    font-size: 3.0em;
+}
+
+footer {
+    background-color: #8EE53F;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    display: block;
+    margin: auto;
+}
+
+#perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#perfil figure {
+    width: 33%;
+}
+
+#perfil img {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#perfil ul {
+    list-style-type: none;
+    width: 66%;
+}
+
+#perfil li {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 573px) {
+
+    #perfil li {
+        margin-bottom: 10px;
+        font-size: 1.0em;
+        font-family: Arial;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+    
+    header {
+        background-color: #8EE53F;
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-family: Arial;
+    }
+    
+    header h1 {
+        color: black;
+        font-size: 3.0em;
+    }
+    
+    footer {
+        background-color: #8EE53F;
+        color: white;
+        text-align: center;
+    }
+    
+    footer img {
+        display: block;
+        margin: auto;
+    }
+    
+    #perfil {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #perfil figure {
+        width: 80%;
+        display: flex;       
+        justify-content: center;
+    }
+    
+    #perfil img {
+        max-width: 80%;
+        height: auto;
+        border-radius: 50px;
+    }
+    
+    #perfil ul {
+        max-width: 80%;
+        list-style-type: none;
+        width: 100%;
+    }
+}
